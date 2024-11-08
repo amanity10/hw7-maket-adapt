@@ -2,11 +2,11 @@
 {margin: 0;
 padding: 0;}
 body{
-  font-family: "Open Sans", sans-serif;
+  font-family: Verdana, sans-serif,;
 }
-a{
+/* a{
   text-decoration: none;
-}
+} */
 header{
   width: 100%;
   background-color: azure;
@@ -14,7 +14,7 @@ header{
 }
 .headerlogo{
   text-transform: uppercase;
-  color: rgb(76, 233, 181);
+  color: #10f0a5;
   font-weight: 800;
   font-size: 24px;
   cursor: pointer;
@@ -22,5 +22,50 @@ header{
   margin-left: 5%;
 }
 nav{
-  
+  margin-top: 20px;
+  margin-left: 20%;
+}
+.topnav a{
+  color:#05c082;
+  text-align: center;
+  padding: 14px 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.topnav a:hover{
+border: 5px solid;
+}
+.icon{
+  display: none ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:930px) {
+
+  .topnav a{
+    display: none;
+  }
+  .topnav a.icon{
+    color: #05c082;
+    display: block;
+    float: right;
+    font-size: 15px;
+    /* margin-top: -12px; */
+  }
+  nav{
+    width: 100%;
+  }
 }
