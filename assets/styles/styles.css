@@ -1,6 +1,8 @@
-*
+*{
+  /* outline: 1px solid red; */
+}
 {margin: 0;
-padding: 0;}
+padding: 0;} 
 body{
   font-family: Verdana, sans-serif,;
 }
@@ -38,37 +40,33 @@ border: 5px solid;
 .icon{
   display: none ;
 }
-
-
 .main{
   background-color: azure;
-  width: 100%;
-  min-height: 600px;
-   display: grid;
-  grid-template-columns: 4fr 2fr; 
-  align-items: center;
+  width: 100%; 
+ min-height: 400px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 20px;
+
 }
 
 
 .coverpic{
-margin-top: 10px;
-
-
+  width: 100%;
+  object-fit:contain;
+  margin-top: 10px;
+  /* margin-left: 10px; */
 }
 
 
 .text{
- text-align: justify;
-
+text-align: justify;
 
 }
-
-
-
-
-
-
-
+.pics{
+  margin-left: 50px;
+}
 
 
 
