@@ -9,7 +9,7 @@ body{
 } */
 header{
   width: 100%;
-  background-color: azure;
+  background-color: rgb(155, 236, 236);
   display: flex;
 }
 .headerlogo{
@@ -40,8 +40,28 @@ border: 5px solid;
 }
 
 
+.main{
+  background-color: azure;
+  width: 100%;
+  min-height: 600px;
+   display: grid;
+  grid-template-columns: 4fr 2fr; 
+  align-items: center;
+}
 
 
+.coverpic{
+margin-top: 10px;
+
+
+}
+
+
+.text{
+ text-align: justify;
+
+
+}
 
 
 
@@ -69,3 +89,4 @@ border: 5px solid;
     width: 100%;
   }
 }
+
