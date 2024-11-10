@@ -1,19 +1,19 @@
 *{
-  /* outline: 1px solid red; */
+  margin: 0;
+  padding: 0;
 }
-{margin: 0;
-padding: 0;} 
-body{
-  font-family: Verdana, sans-serif,;
+
+body{ */
+  font-family: Verdana, sans-serif;
 }
-/* a{
-  text-decoration: none;
-} */
+
 header{
   width: 100%;
   background-color: rgb(155, 236, 236);
   display: flex;
+  /* margin-bottom: 20px; */
 }
+
 .headerlogo{
   text-transform: uppercase;
   color: #10f0a5;
@@ -23,50 +23,50 @@ header{
   margin-top: 20px;
   margin-left: 5%;
 }
+
 nav{
   margin-top: 20px;
   margin-left: 20%;
 }
+
 .topnav a{
-  color:#05c082;
+  color:#05c08271;
   text-align: center;
   padding: 14px 20px;
   font-weight: bold;
   font-size: 14px;
 }
+
 .topnav a:hover{
 border: 5px solid;
 }
+
 .icon{
   display: none ;
 }
-.main{
-  background-color: azure;
-  width: 100%; 
- min-height: 400px;
- display: flex;
- flex-direction: row;
- align-items: center;
- gap: 20px;
+
+.container{
+  background-color: rgba(127, 255, 212, 0.37);
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:20px,
 
 }
 
-
-.coverpic{
-  width: 100%;
-  object-fit:contain;
-  margin-top: 10px;
-  /* margin-left: 10px; */
+.pic1 {
+  width: 30%;
 }
 
-
-.text{
-text-align: justify;
-
+.pic2 {
+  width: 30%;
+  margin-right: 20px;
 }
-.pics{
-  margin-left: 50px;
-}
+
+.pic3{
+width: 30%;
+} 
 
 
 
@@ -86,5 +86,5 @@ text-align: justify;
   nav{
     width: 100%;
   }
-}
+} 
 
