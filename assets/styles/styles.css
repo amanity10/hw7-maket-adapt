@@ -30,7 +30,7 @@ nav{
 }
 
 .topnav a{
-  color:#05c08271;
+  color:#0a5f4371;
   text-align: center;
   padding: 14px 20px;
   font-weight: bold;
@@ -47,13 +47,15 @@ border: 5px solid;
 
 .container{
   background-color: rgba(127, 255, 212, 0.37);
-  min-height: 400px;
+  min-height: 600px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   gap:20px,
 
 }
+
 
 .pic1 {
   width: 30%;
@@ -68,6 +70,47 @@ border: 5px solid;
 width: 30%;
 } 
 
+.footer {
+  background-color:rgb(155, 236, 236) ;
+ 
+}
+
+.container {}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+    }
+
+
+.footer-block {}
+
+
+
+
+
+.footer-title {
+    display: block;
+      margin: 39px 0 40px;
+      font-weight: 500;
+      font-size: 24px;
+}
+
+.footer-menu {}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.footer-link {
+  color: #076e4c;
+}
+
+.footer-social {
+color: #076e4c;
+}
 
 
 
